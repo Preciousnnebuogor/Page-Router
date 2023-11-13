@@ -1,33 +1,33 @@
-  body {
-    background: #f2f2f2;
-    color: #333;
-    font-family: "Nuito";
-  } 
-a{
+body {
+  background: #f2f2f2;
+  color: #333;
+  font-family: "Nuito";
+}
+a {
   color: #333;
   text-decoration: none;
 }
-.content{
+.content {
   max-width: 960px;
   margin: 0 auto;
 }
-nav{
+nav {
   margin: 10px auto 80px;
   padding: 10px 0;
   display: flex;
+  align-items: center;
+  justify-content: space-between;
   border-bottom: 1px solid #ddd;
 }
 nav a {
   margin-left: 12px;
 }
-nav.logo {
+.logo  {
   margin-right: auto;
-  color: aqua;
+  color: rgb(17, 17, 239);
 }
-nav .list{
-  float: left;
-  color: blue;
-}
+
+
 footer {
   display: block;
   text-align: center;
@@ -36,10 +36,10 @@ footer {
   color: #777;
   border-top: 1px solid #eaeaea;
 }
-.not-found{
+.not-found {
   text-align: center;
 }
 .not-found a {
-  color: blue ;
+  color: blue;
   text-decoration: underline;
 }
